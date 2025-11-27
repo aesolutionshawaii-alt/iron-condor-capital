@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iron Condor Capital</title>
+    <link rel="icon" type="image/png" href="/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --navy: #1a1d29;
+            --navy-light: #242838;
+            --gold: #c9a227;
+            --gold-light: #d4b44a;
+            --cream: #f5f0e1;
+            --cream-muted: #e8e2d3;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--navy);
+            color: var(--cream);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .logo {
+            max-width: 400px;
+            width: 90%;
+            margin-bottom: 3rem;
+        }
+
+        .divider {
+            width: 80px;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--gold), transparent);
+            margin-bottom: 2.5rem;
+        }
+
+        .mission {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.35rem;
+            font-weight: 400;
+            line-height: 1.8;
+            max-width: 700px;
+            color: var(--cream-muted);
+            letter-spacing: 0.02em;
+        }
+
+        footer {
+            padding: 2rem;
+            text-align: center;
+            border-top: 1px solid var(--navy-light);
+        }
+
+        .footer-content {
+            font-size: 0.8rem;
+            color: #6b7082;
+            letter-spacing: 0.05em;
+        }
+
+        @media (max-width: 600px) {
+            .logo {
+                max-width: 280px;
+                margin-bottom: 2rem;
+            }
+
+            .mission {
+                font-size: 1.1rem;
+                line-height: 1.7;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <img src="/logo.png" alt="Iron Condor Capital" class="logo">
+        <div class="divider"></div>
+        <p class="mission">
+            Iron Condor Capital is committed to disciplined, conservative options-trading strategies 
+            that emphasize capital preservation and predictable income generation. Through methodical 
+            analysis and responsible risk controls, we aim to build long-term financial stability 
+            for our investors and partners.
+        </p>
+    </main>
+    <footer>
+        <p class="footer-content">© 2025 Iron Condor Capital LLC. All rights reserved.</p>
+    </footer>
+</body>
+</html>
